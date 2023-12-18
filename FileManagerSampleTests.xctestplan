@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "B9C57585-A386-4992-8F01-7BD6E8C00461",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:FileManagerSample.xcodeproj",
+      "identifier" : "656C5F472B30A3CE009E5245",
+      "name" : "FileManagerSample"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:FileManagerSample.xcodeproj",
+        "identifier" : "656C5F5D2B30A3CF009E5245",
+        "name" : "FileManagerSampleTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:FileManagerSample.xcodeproj",
+        "identifier" : "656C5F672B30A3CF009E5245",
+        "name" : "FileManagerSampleUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

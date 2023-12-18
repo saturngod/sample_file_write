@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6531FE8E2B30FE64002B3AA9 /* FileManagerSampleTests.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 6531FE8D2B30FE64002B3AA9 /* FileManagerSampleTests.xctestplan */; };
 		656C5F4C2B30A3CE009E5245 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C5F4B2B30A3CE009E5245 /* AppDelegate.swift */; };
 		656C5F4E2B30A3CE009E5245 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C5F4D2B30A3CE009E5245 /* SceneDelegate.swift */; };
 		656C5F502B30A3CE009E5245 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C5F4F2B30A3CE009E5245 /* HomeViewController.swift */; };
@@ -38,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6531FE8B2B30FA8E002B3AA9 /* FileManagerSample.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = FileManagerSample.xctestplan; path = ../FileManagerSample.xctestplan; sourceTree = "<group>"; };
+		6531FE8D2B30FE64002B3AA9 /* FileManagerSampleTests.xctestplan */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FileManagerSampleTests.xctestplan; sourceTree = "<group>"; };
 		656C5F482B30A3CE009E5245 /* FileManagerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileManagerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		656C5F4B2B30A3CE009E5245 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		656C5F4D2B30A3CE009E5245 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,7 +84,7 @@
 		656C5F3F2B30A3CE009E5245 = {
 			isa = PBXGroup;
 			children = (
-				6531FE8B2B30FA8E002B3AA9 /* FileManagerSample.xctestplan */,
+				6531FE8D2B30FE64002B3AA9 /* FileManagerSampleTests.xctestplan */,
 				656C5F4A2B30A3CE009E5245 /* FileManagerSample */,
 				656C5F612B30A3CF009E5245 /* FileManagerSampleTests */,
 				656C5F6B2B30A3CF009E5245 /* FileManagerSampleUITests */,
@@ -264,6 +265,7 @@
 				656C5F582B30A3CF009E5245 /* LaunchScreen.storyboard in Resources */,
 				656C5F552B30A3CF009E5245 /* Assets.xcassets in Resources */,
 				656C5F532B30A3CE009E5245 /* Main.storyboard in Resources */,
+				6531FE8E2B30FE64002B3AA9 /* FileManagerSampleTests.xctestplan in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
