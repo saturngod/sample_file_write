@@ -128,7 +128,13 @@ extension HomeViewModel {
     }
     
     private func getImageUrl(_ directoryURL: URL, _ name: String) -> URL {
-        return directoryURL.appending(path: name)
+        if #available(iOS 16.0, *) {
+            return directoryURL.appending(path: name)
+        } else {
+            
+            let path = directoryURL.path + "/" + name
+            return URL(fileURLWithPath: path)
+        }
     }
     
     private func createFile(_ imageUrl: URL,_ imageData: Data?) -> Bool {
