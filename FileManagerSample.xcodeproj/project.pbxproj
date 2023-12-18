@@ -38,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6531FE8B2B30FA8E002B3AA9 /* FileManagerSample.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = FileManagerSample.xctestplan; path = ../FileManagerSample.xctestplan; sourceTree = "<group>"; };
 		656C5F482B30A3CE009E5245 /* FileManagerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileManagerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		656C5F4B2B30A3CE009E5245 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		656C5F4D2B30A3CE009E5245 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +83,7 @@
 		656C5F3F2B30A3CE009E5245 = {
 			isa = PBXGroup;
 			children = (
+				6531FE8B2B30FA8E002B3AA9 /* FileManagerSample.xctestplan */,
 				656C5F4A2B30A3CE009E5245 /* FileManagerSample */,
 				656C5F612B30A3CF009E5245 /* FileManagerSampleTests */,
 				656C5F6B2B30A3CF009E5245 /* FileManagerSampleUITests */,
@@ -573,7 +575,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4UP69BH7R6;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hls.FileManagerSampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -590,7 +594,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4UP69BH7R6;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hls.FileManagerSampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
