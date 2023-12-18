@@ -46,10 +46,11 @@ jobs:
           # apply provisioning profile
           mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
           cp $PP_PATH ~/Library/MobileDevice/Provisioning\ Profiles      
-
+      - name: Show Available Destinations
+        run: xcodebuild -scheme FileManagerSample -showdestinations
       - name: test
         run: |
-          xcodebuild test -scheme FileManagerSample    
+          xcodebuild test -scheme FileManagerSample -only-testing:FileManagerSampleTests/FileManagerSampleTests -destination 'platform=iOS Simulator,OS=17.2,name=iPhone 15'
 
       - name: build archive
         run: |
