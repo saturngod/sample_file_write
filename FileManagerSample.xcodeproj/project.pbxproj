@@ -472,6 +472,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4UP69BH7R6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FileManagerSample/Info.plist;
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We would like to access the photo library for the select image";
@@ -486,7 +487,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hls.FileManagerSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cq.FileManagerSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -501,6 +502,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4UP69BH7R6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FileManagerSample/Info.plist;
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We would like to access the photo library for the select image";
@@ -515,7 +517,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hls.FileManagerSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cq.FileManagerSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
